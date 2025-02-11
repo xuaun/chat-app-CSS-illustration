@@ -1,0 +1,110 @@
+:root {
+  /* DESIGN SYSTEM */
+  /* COLORS DS */
+  /* PRIMARY */
+  --violet-pale: hsl(276, 100%, 81%);
+  --violet-moderate: hsl(276, 55%, 52%);
+  --violet-desatured-dark: hsl(271, 15%, 43%);
+  --blue-grayish: hsl(206, 6%, 79%);
+  --violet-very-dark-desatured: hsl(271, 36%, 24%);
+  --violet-dark-grayish: hsl(270, 7%, 64%);
+  /* SECONDARY */
+  --violet-light-grayish: hsl(270, 20%, 96%);
+  --magenta-very-light: hsl(289, 100%, 72%);
+  --white: hsl(0, 0%, 100%);
+  --white-almost: hsl(0, 0%, 98%);
+  --violet-left-message: hsl(276, 41%, 93%);
+  --violet-right-message: hsl(--white);
+  /* GRADIENT */
+  --gradient-1-0: hsl(293, 100%, 63%);
+  --gradient-1-100: hsl(264, 100%, 61%);
+
+  /* TYPOGRAPHY DS */
+  --text-family: "Rubik", sans-serif;
+  /* TEXT PRESET 1 */
+  --text-1-size: 4rem;
+  --text-1-weight: 500;
+  --text-1-height: 4rem;
+  --text-1-spacing: 0rem;
+  /* TEXT PRESET 2 */
+  --text-2-size: 1.6rem;
+  --text-2-weight: 400;
+  --text-2-height: 2.8rem;
+  --text-2-spacing: 0rem;
+  /* TEXT PRESET 3 */
+  --text-3-size: 1.1rem;
+  --text-3-weight: 500;
+  --text-3-height: 1.1rem;
+  --text-3-spacing: 0rem;
+  /* TEXT PRESET 4 */
+  --text-4-size: 0.8rem;
+  --text-4-weight: 400;
+  --text-4-height: 1.1rem;
+  --text-4-spacing: 0rem;
+  /* TEXT PRESET 5 */
+  --text-5-size: 1.2rem;
+  --text-5-weight: 700;
+  --text-5-height: 1.1rem;
+  --text-5-spacing: 0rem;
+  /* TEXT PRESET 6 */
+  --text-6-size: 0.9rem;
+  --text-6-weight: 400;
+  --text-6-height: 0.9rem;
+  --text-6-spacing: 0rem;
+
+  /* PAGE */
+
+  /* GRADIENT */
+  --gradient-background: var(--gradient-1-0);
+  --gradient-1-moz: -moz-linear-gradient(
+    -135deg,
+    var(--gradient-1-0) 0%,
+    var(--gradient-1-100) 100%
+  );
+  --gradient-1-webkit: -webkit-linear-gradient(
+    -135deg,
+    var(--gradient-1-0) 0%,
+    var(--gradient-1-100) 100%
+  );
+  --gradient-1: linear-gradient(
+    -135deg,
+    var(--gradient-1-0) 0%,
+    var(--gradient-1-100) 100%
+  );
+  --gradient-1-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E844FF",endColorstr="#8739FF",GradientType=1);
+  --gradient-2-moz: -moz-linear-gradient(
+    -45deg,
+    var(--gradient-1-100) 0%,
+    var(--gradient-1-0) 100%
+  );
+  --gradient-2-webkit: -webkit-linear-gradient(
+    -45deg,
+    var(--gradient-1-100) 0%,
+    var(--gradient-1-0) 100%
+  );
+  --gradient-2: linear-gradient(
+    -45deg,
+    var(--gradient-1-100) 0%,
+    var(--gradient-1-0) 100%
+  );
+  --gradient-2-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8739FF",endColorstr="#E844FF",GradientType=1);
+
+  /* COLORS */
+  --background-page-color: var(--white-almost);
+  --backgruond-app-color: var(--violet-light-grayish);
+  --background-message-left: var(--violet-left-message);
+  --background-message-right: var(--violet-right-message);
+  --background-btn-sent: var(--violet-very-dark-desatured);
+  --background-sent-message: var(--white);
+  --btn-radio: var(--magenta-very-light);
+  --app-border: var(--white);
+  --app-icons: var(--white);
+  --text-name: var(--white);
+  --text-availability: var(--violet-pale);
+  --text-message-left: var(--violet-moderate);
+  --text-message-right: var(--violet-desatured-dark);
+  --text-price: var(--white);
+  --text-placeholder: var(--blue-grayish);
+  --text-page-header: var(--violet-very-dark-desatured);
+  --text-page-body: var(--violet-dark-grayish);
+}

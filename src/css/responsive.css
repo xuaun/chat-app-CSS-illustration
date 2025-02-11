@@ -1,0 +1,28 @@
+@media (max-width: 38.75rem) {
+  /* GLOBAL */
+
+  .main {
+    flex-direction: column;
+    gap: 6.4rem;
+    padding: 6.4rem;
+  }
+
+  /* BACKGROUND */
+
+  .main::before {
+    left: -32.2rem;
+    top: -50.9rem;
+  }
+
+  .main::after {
+    right: -32.3rem;
+    bottom: -50.9rem;
+  }
+
+  /* DETAILS */
+
+  .details {
+    text-align: center;
+    max-width: 35rem;
+  }
+}
