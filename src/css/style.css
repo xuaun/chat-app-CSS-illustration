@@ -221,6 +221,7 @@ html {
   background: var(--gradient-2);
   filter: var(--gradient-2-filter);
   min-width: 16rem;
+  padding: 1rem 1.6rem 1rem 0.8rem;
   box-shadow: 0rem 1rem 0.5rem -0.5rem rgba(62, 39, 83, 5%);
   display: flex;
   align-items: center;
