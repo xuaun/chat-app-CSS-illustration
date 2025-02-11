@@ -319,43 +319,43 @@ html {
 /* ANIMATION */
 
 .chat__message:first-child {
-  -webkit-animation: reply 2s;
-  animation: reply 2s;
+  -webkit-animation: reply 1.5s;
+  animation: reply 1.5s;
 }
 
 .chat__message:nth-child(2) {
-  -webkit-animation: reply 3s;
-  animation: reply 3s;
+  -webkit-animation: reply 2.5s;
+  animation: reply 2.5s;
 }
 
 .chat__message:nth-child(3) {
-  -webkit-animation: message 5s;
-  animation: message 5s;
+  -webkit-animation: message 3.5s;
+  animation: message 3.5s;
 }
 
 .chat__message:nth-child(4) {
-  -webkit-animation: message 6s;
-  animation: message 6s;
+  -webkit-animation: message 4.5s;
+  animation: message 4.5s;
 }
 
 .chat__message:nth-child(5) {
-  -webkit-animation: message 7s;
-  animation: message 7s;
+  -webkit-animation: message 5.5s;
+  animation: message 5.5s;
 }
 
 .chat__message:nth-child(6) {
-  -webkit-animation: reply 9s;
-  animation: reply 9s;
+  -webkit-animation: reply-2 7s;
+  animation: reply-2 7s;
 }
 
 .chat__message:nth-child(7) {
-  -webkit-animation: reply 10s;
-  animation: reply 10s;
+  -webkit-animation: reply-2 8s;
+  animation: reply-2 8s;
 }
 
 .chat__message:nth-child(8) {
-  -webkit-animation: reply 10s;
-  animation: reply 10s;
+  -webkit-animation: reply-2 8s;
+  animation: reply-2 8s;
 }
 
 @keyframes reply {
@@ -363,7 +363,7 @@ html {
     opacity: 0;
     transform: translateX(-5rem);
   }
-  80% {
+  50% {
     opacity: 0;
     transform: translateX(-5rem);
   }
@@ -378,9 +378,24 @@ html {
     opacity: 0;
     transform: translateX(5rem);
   }
-  80% {
+  70% {
     opacity: 0;
     transform: translateX(5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes reply-2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  80% {
+    opacity: 0;
+    transform: translateX(-5rem);
   }
   100% {
     opacity: 1;
