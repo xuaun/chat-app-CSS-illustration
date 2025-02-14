@@ -95,7 +95,7 @@ ____
 
 ## Contexto
 
-Esta é uma solução para o [desafio de ilustração CSS do aplicativo de bate-papo no Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
+Esta é uma solução para o [desafio de ilustração CSS do aplicativo de bate-papo no Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
 
 > Seu desafio é criar essa ilustração usando HTML e CSS e fazer com que ela fique o mais próxima possível do design.
 
